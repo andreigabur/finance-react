@@ -1,0 +1,42 @@
+.menu-button {
+	color: #222222;
+	padding: 5px;
+	text-align: center;
+}
+
+.menu-button a {
+	color: #222222;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-button.active {
+	color: #306B7B;
+}
+
+.menu-button.menu-button.active a {
+	color: #306B7B;
+}
+
+.menu-button a i {
+	margin-right: 5px;
+}
+
+/* PHONE CSS */
+@media (max-width: 768px) {
+	.menu-button {
+		padding-bottom: 0;
+	}
+
+	.menu-button a {
+		height: 45px;
+	}
+
+	.menu-button a i {
+		display: block;
+		font-size: 1.5em;
+		margin-bottom: 2px;
+		margin-right: 0;
+	}
+}

@@ -1,0 +1,15 @@
+.menu-bar {
+	background-color: #CFCFCF;
+	height: 30px;
+}
+
+.button-container:not(:last-child) {
+	border-right: 1px solid #222222;
+}
+
+/* PHONE CSS */
+@media (max-width: 768px) {
+	.menu-bar {
+		height: 50px;
+	}
+}
