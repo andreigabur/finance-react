@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './libs/font-awesome-4.7.0/css/font-awesome.min.css';
 
 class App extends Component {
 	render() {
