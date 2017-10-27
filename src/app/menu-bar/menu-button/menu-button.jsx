@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './menu-button.css';
 
 class MenuButton extends React.Component {
@@ -22,5 +23,11 @@ class MenuButton extends React.Component {
 		)
 	}
 }
+
+MenuButton.propTypes = {
+	icon: PropTypes.string,
+	label: PropTypes.string,
+	active: PropTypes.bool,
+};
 
 export default MenuButton;

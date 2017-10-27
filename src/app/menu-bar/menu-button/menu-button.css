@@ -11,12 +11,18 @@
 	text-decoration: none;
 }
 
+.menu-button a:hover,
+.menu-button a:focus {
+	color: #222222;
+	text-decoration: none;
+}
+
 .menu-button.active {
-	color: #306B7B;
+	color: #23527C;
 }
 
 .menu-button.menu-button.active a {
-	color: #306B7B;
+	color: #23527C;
 }
 
 .menu-button a i {

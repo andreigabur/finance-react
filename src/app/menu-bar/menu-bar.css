@@ -1,10 +1,11 @@
 .menu-bar {
 	background-color: #CFCFCF;
+	box-shadow: 0 0 2px #222222;
 	height: 30px;
 }
 
 .button-container:not(:last-child) {
-	border-right: 1px solid #222222;
+	border-right: 1px solid #868686;
 }
 
 /* PHONE CSS */
