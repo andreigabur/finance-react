@@ -1,6 +1,6 @@
 import React from 'react';
 import Enzyme from 'enzyme';
-import App from './app.jsx';
+import App from './App';
 
 it('renders app witout crashing', () => {
 	Enzyme.mount(<App />);

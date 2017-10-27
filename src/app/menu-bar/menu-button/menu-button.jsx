@@ -10,9 +10,7 @@ class MenuButton extends React.Component {
 			componentClasses.push("active");
 
 		let iconClasses = ['fa'];
-		if (this.props.icon)
-			iconClasses.push(this.props.icon);
-			
+		iconClasses.push(this.props.icon);
 		return (
 			<div className={componentClasses.join(' ')}>
 				<a>
