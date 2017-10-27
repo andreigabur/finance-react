@@ -13,7 +13,7 @@ class TransactionsList extends React.Component {
 								<div>
 									{transaction.desctiption}
 								</div>
-								<div style={{'color': '#23527C', 'font-weight': '700'}}>
+								<div style={{color: '#23527C', fontWeight: '700'}}>
 									{transaction.amount} $$
 								</div>
 							</div>
